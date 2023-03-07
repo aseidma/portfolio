@@ -1,0 +1,23 @@
+---
+import { t } from "i18next";
+import { Icon } from "astro-icon";
+import "@fontsource/space-mono";
+import "@fontsource/rubik";
+---
+
+<style lang="css">
+    [astro-icon] {
+        fill: #C6C6C6;
+    }
+
+</style>
+
+<div>
+    <h4 class="text-white text-center text-xl font-sans-serif mb-12">{t("customers.title")}</h4>
+    <div class="flex justify-around flex-wrap">
+        <Icon name="dlr" class="h-16 mr-5 mb-8" />
+        <Icon name="koro" class="h-16 mr-5 mb-8"/>
+        <Icon name="strunckweis" class="h-16 mr-5 mb-8"/>
+        <Icon name="rausch" class="h-16 mr-5 mb-8"/>
+    </div>
+</div>
