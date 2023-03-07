@@ -1,0 +1,63 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import BaseHead from "../../components/BaseHead.astro";
+
+changeLanguage("en");
+---
+
+<!DOCTYPE html>
+<html lang={i18next.language}>
+  <head>
+    <BaseHead
+      title="Impressum"
+      description="Legal information regarding alexseidmann.de"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <h1 class="text-3xl text-white font-bold mb-6">{t("imprint.title")}</h1>
+
+    <h2 class="text-xl text-white font-bold mb-2">{t("imprint.information")}</h2>
+    <p class="mb-2">
+      {t("imprint.company")}<br />
+      {t("imprint.address")}
+    </p>
+
+    <h3 class="text-lg text-white font-bold mb-2">{t("imprint.represented_by")}</h3>
+    <p class="mb-6">{t("imprint.representative_name")}</p>
+
+    <h2 class="text-xl text-white font-bold mb-2">{t("imprint.contact")}</h2>
+    <p class="mb-2">
+      {t("imprint.phone")}<br />
+      {t("imprint.email")}
+    </p>
+
+    <h2 class="text-xl text-white font-bold mb-2">{t("imprint.eu_dispute_resolution")}</h2>
+    <p class="mb-2">
+      {t("imprint.eu_platform")}
+      <a href="{t(" imprint.eu_link")}" class="text-blue-600 underline"
+        >{t("imprint.eu_link")}</a
+      >.<br />
+      {t("imprint.not_willing_or_obliged")}
+    </p>
+
+    <h2 class="text-xl text-white font-bold mb-2">
+      {t("imprint.consumer_dispute_resolution")}
+    </h2>
+    <p class="mb-6">{t("imprint.not_willing_or_obliged")}</p>
+
+    <h2 class="text-xl font-bold mb-2">{t("imprint.liability_for_content")}</h2>
+    <p class="mb-2">{t("imprint.content_responsibility")}</p>
+
+    <p class="mb-6">{t("imprint.obligations_to_remove")}</p>
+
+    <h2 class="text-xl text-white font-bold mb-2">{t("imprint.liability_for_links")}</h2>
+    <p class="mb-2">{t("imprint.external_websites")}</p>
+
+    <p class="mb-6">{t("imprint.permanent_control")}</p>
+
+    <h2 class="text-xl text-white font-bold mb-2">{t("imprint.copyright")}</h2>
+    <p class="mb-2">{t("imprint.content_responsibility")}</p>
+
+    <p class="mb-6">{t("imprint.third_party_content")}</p>
+  </body>
+</html>

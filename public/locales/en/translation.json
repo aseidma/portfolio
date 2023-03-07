@@ -1,0 +1,40 @@
+{
+  "home": {
+    "title": "Hey! I'm Alex Seidmann.",
+    "occupation": "I develop user-centric applications using modern web technologies.",
+    "detail": "As a fullstack software engineer I am responsible for the interaction between the front- and backend of web applications. \n At the moment I am primarily working with TypeScript, Golang and Python.",
+    "cta": "Let's talk!",
+    "imprint": "Imprint"
+  },
+  "customers": {
+    "title": "We've had the pleasure"
+  },
+  "imprint": {
+    "title": "Imprint",
+    "information": "Information according to § 5 TMG",
+    "company": "Alexander Seidmann",
+    "address": "Richard-Schirrmann-Straße 5\n 55122 Mainz",
+    "commercial_register": "Commercial Register: Hardenbergstr. 31, 10623 Berlin",
+    "commercial_register_number": "Commercial Register Number: HRB 214788 B",
+    "register_court": "Register Court: Berlin Charlottenburg",
+    "represented_by": "Represented by:",
+    "representative_name": "Alexander Seidmann",
+    "contact": "Contact",
+    "phone": "Phone: +49 176/63374155",
+    "email": "Email: alex@leanpnt.de",
+    "eu_dispute_resolution": "EU Dispute Resolution",
+    "eu_platform": "The European Commission provides a platform for online dispute resolution (OS):",
+    "eu_link": "https://ec.europa.eu/consumers/odr",
+    "consumer_dispute_resolution": "Consumer dispute resolution/ Universal arbitration board",
+    "not_willing_or_obliged": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "liability_for_content": "Liability for content",
+    "content_responsibility": "As a service provider, we are responsible for our own content on these pages in accordance with general laws pursuant to Section 7 (1) TMG. However, according to Sections 8 to 10 TMG, we as a service provider are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+    "obligations_to_remove": "Obligations to remove or block the use of information according to general laws remain unaffected by this. However, liability in this regard is only possible from the time of knowledge of a concrete infringement. If we become aware of any such legal infringements, we will remove the content in question immediately.",
+    "liability_for_links": "Liability for links",
+    "external_websites": "Our offer contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the linked pages is always responsible for the contents of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking.",
+    "permanent_control": "However, a permanent control of the content of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any infringements, we will remove such links immediately.",
+    "copyright": "Copyright",
+    "copyright_content": "The content and works created by the site operators on these pages are subject to German copyright law. The reproduction, processing, distribution and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of these pages are only permitted for private, non-commercial use.",
+    "third_party_content": "Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately."
+  }
+}
